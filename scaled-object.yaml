@@ -44,4 +44,4 @@ spec:
         metricName: http_requests_total
         # if treshold is reached then Keda will scale our deployment
         threshold: "5"
-        query: sum(rate(http_requests_total[1m]))
+        query: sum(rate(http_requests[30s]))
