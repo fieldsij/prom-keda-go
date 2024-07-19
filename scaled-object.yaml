@@ -15,7 +15,7 @@ spec:
   # min replicas keda will scale to
   # if you have an app that has an dependency on pubsub
   # this would be a good use case to set it to zero
-  minReplicaCount: 1
+  minReplicaCount: 2
   # max replicas keda will scale to
   maxReplicaCount: 20
   advanced:
